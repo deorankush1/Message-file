@@ -2,11 +2,11 @@
 Class Curl 
 {   
   private $url_to_fetch;
-  
+ 
   
   public function __construct()
   {
-    $this -> url_to_fetch = null;
+    $this -> url_to_fetch = 'sachin';
     
     
   }
@@ -20,7 +20,10 @@ public function set_url_to_fetch($url_to_fetch)
  $this -> url_to_fetch = $url_to_fetch;
 }
 
-   public function  jsdecode()
+
+
+
+public function  jsdecode()
    {
   
   $this -> url_to_fetch;
@@ -33,15 +36,25 @@ public function set_url_to_fetch($url_to_fetch)
    $result=curl_exec($cSession);
     curl_close($cSession);
 //step4
-   $decode = json_decode($result);
-   print_r($result);
-  
+   $array = json_decode($result, true);
+   if($array ===null)
+    { }
+ // echo '<pre>',print_r($array),'</pre>';
+  foreach($array as $row)
+ { 
 
+ echo '<pre>',print_r($array  ="('ent_date =".$row["ent_date"]."', ' full_message =".$row["full_message"]." ','msg_id =".$row["msg_id"]." ',' price =".$row["price"]." ','topic =".$row["topic"]." ', 'tp_sector =".$row["tp_sector"]." ', 'tp_nsc_cp =".$row["tp_nsc_cp"]." ', 'msg_url =".$row["msg_url"]." ')"),'</pre>';
+
+ 
+ }
+
+
+   
+ }
 }
-}
-$curl1 = new Curl();
-$curl1 -> set_url_to_fetch('http://mmb.moneycontrol.com/index.php?q=boarder/ajax_call&section=get_messages&uid=valine&isp=0&gmt=my_post');
-$curl1-> get_url_to_fetch();
-$curl1 ->jsdecode();
+
+
+
+
 
 ?>
