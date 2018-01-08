@@ -1,4 +1,5 @@
 <?php
+require "Curl.php";
 class Message
 {
 	private $msg_id;
@@ -16,10 +17,10 @@ class Message
  	$this -> msg_id = 0;
  	$this -> ent_date =00-00-0000;
  	$this -> full_message = null;
- 	$this -> price =0;
+ 	$this -> price =null;
  	$this -> topic = null;
  	$this -> tp_sector = null;
- 	$this -> tp_nsc_cp = 0;                             
+ 	$this -> tp_nsc_cp = null;                             
  }
 
  public function get_msg_id()
@@ -68,13 +69,13 @@ class Message
  	$this -> topic = $topic;
  }
 
-  public function get_tp_nsc_cpd()
+  public function get_tp_nsc_cp()
  {
- 	return $this-> tp_nsc_cpd;
+ 	return $this-> tp_nsc_cp;
  }
- public function set_tp_nsc_cpd($tp_nsc_cpd)
+ public function set_tp_nsc_cp($tp_nsc_cp)
  {
- 	$this -> tp_nsc_cpd = $tp_nsc_cpd;
+ 	$this -> tp_nsc_cp = $tp_nsc_cp;
  }
 
 
@@ -95,31 +96,49 @@ class Message
  {
  	$this -> msg_url = $msg_url;
  }
+ public function call()
+	{   
+		
+        $curl = new Curl();
+		$name = $curl ->set_url_to_fetch('http://mmb.moneycontrol.com/index.php?q=boarder/ajax_call&section=get_messages&uid=valine&isp=0&gmt=my_post');
+		$name =$curl ->get_url_to_fetch(); 	
+		$curl ->jsdecode(); 
+      	}
+
+
+  
+  
 }
 $message1 = new Message();
-$message1 -> set_msg_id(3);
-echo $message1 -> get_msg_id();
 
-$message1 -> set_full_message('ankush you can');
-echo $message1 -> get_full_message();
+ 
 
-$message1 -> set_price(1500);
-echo $message1 -> get_price();
+$message1 = new Message();
+$message1 -> set_msg_id(56141097);
+ $message1 -> get_msg_id();
 
-$message1 -> set_topic('  java');
-echo $message1 -> get_topic();
+$message1 -> set_full_message('I hope you are counting the gains, This is an unprecedented rally in Globus Spirits in just Six months, it went up 180%.');
+ $message1 -> get_full_message();
 
-$message1 -> set_tp_nsc_cpd(  1200);
-echo $message1 -> get_tp_nsc_cpd();
+$message1 -> set_price('Price when posted : BSE: Rs. 169.60 NSE: Rs. 170.35');
+ $message1 -> get_price();
 
-$message1 -> set_tp_sector('Example');
-echo $message1 -> get_tp_sector();
+$message1 -> set_topic('Globus Spirits');
+ $message1 -> get_topic();
 
-$message1 -> set_msg_url('http:// www.google.com');
-echo $message1 -> get_msg_url();
+$message1 -> set_tp_nsc_cp(171.95);
+ $message1 -> get_tp_nsc_cp();
 
-$message1 -> set_ent_date('12-12-1221');
-echo $message1 -> get_ent_date();
+$message1 -> set_tp_sector('Breweries & Distilleries');
+ $message1 -> get_tp_sector();
+
+$message1 -> set_msg_url('/forum-topics/stocks/globus-spirits/thread-message-54341097-56141097.html');
+ $message1 -> get_msg_url();
+
+$message1 -> set_ent_date('2018-01-07 18:50:36');
+ $message1 -> get_ent_date();
+
+ 
 
 
 
