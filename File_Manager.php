@@ -1,41 +1,33 @@
 <?php
-class File_Manager
+class FileManager
 {
-	private $msg_id;
-	private $full_msg;
-
-	public function __construct()
-	{
-	$this -> msg_id =0;
-	$this -> full_msg = null;
-	}
-
-	public function get_msg_id()
-	{
-	return $this -> msg_id;
-	}
-	public function set_msg_id($msg_id)
-	{
-	$this -> msg_id = $msg_id;
-	}
-
-
-	public function get_full_msg()
-	{
-	return $this -> full_msg;
-	}
-
-	public function set_full_msg()
-	{
-	$this -> full_msg =$full_msg;
-	}
-
+	
+Public $result;
+public function __construct()
+{
+	$this -> result = null;
 }
-	$full_msg = $_POST['full_msg'];
-	$msg_id = $_POST['msg_id'];
-	$fp = fopen(”formdata.txt”, “a”);
-	$savestring = $full_msg . ",".$email."n";
-	fwrite($fp,$savestring);
-	fclose($fp);
-	echo "<h1>you data has been saved in a text file </h1>";
-?>		
+/*
+public function set_result($result)
+{
+ $this ->result = $result;
+}
+public function get_result()
+{
+	return $this ->result;
+}*/
+function calling()
+{
+
+ $myfile = fopen("newfile.txt","w") or die("Unable to open file!");
+ 
+ fwrite($myfile, $result);
+fclose($myfile);
+ 
+}
+}
+
+
+
+?> 
+	
