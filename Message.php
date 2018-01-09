@@ -102,7 +102,7 @@ class Message
         $curl = new Curl();
 		$name = $curl ->set_url_to_fetch('http://mmb.moneycontrol.com/index.php?q=boarder/ajax_call&section=get_messages&uid=valine&isp=0&gmt=my_post');
 		$name =$curl ->get_url_to_fetch(); 	
-		$curl ->jsdecode(); 
+		return $curl ->jsdecode(); 
       	}
 
 
@@ -110,12 +110,11 @@ class Message
   
 }
 $message1 = new Message();
-
  
 
 $message1 = new Message();
 $message1 -> set_msg_id(56141097);
- $message1 -> get_msg_id();
+ echo $message1 -> get_msg_id();
 
 $message1 -> set_full_message('I hope you are counting the gains, This is an unprecedented rally in Globus Spirits in just Six months, it went up 180%.');
  $message1 -> get_full_message();
