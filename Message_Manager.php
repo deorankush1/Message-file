@@ -33,8 +33,8 @@ class Message_Manager
   } 
 }
   
-  $help = new Message_Manager();
-  $help ->call1(); 
+  $M_manager = new Message_Manager();
+  $M_manager ->call1(); 
 
 
 
