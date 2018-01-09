@@ -37,18 +37,22 @@ public function  jsdecode()
     curl_close($cSession);
 //step4
    $array = json_decode($result, true);
-   if($array ===null)
-    { }
+   
  // echo '<pre>',print_r($array),'</pre>';
+  $return_array = array();
+  if($return_array ===null)
+    { }
   foreach($array as $row)
  { 
 
- echo '<pre>',print_r($array  ="('ent_date =".$row["ent_date"]."', ' full_message =".$row["full_message"]." ','msg_id =".$row["msg_id"]." ',' price =".$row["price"]." ','topic =".$row["topic"]." ', 'tp_sector =".$row["tp_sector"]." ', 'tp_nsc_cp =".$row["tp_nsc_cp"]." ', 'msg_url =".$row["msg_url"]." ')"),'</pre>';
+  
+  print_r($return_array[]= [['ent_date' => $row["ent_date"]] , ['msg_id' => $row["msg_id"]] ,['full_message' => $row["full_message"]] ,['price' => $row["price"]] ,['topic' => $row["topic"]] ,['tp_sector' => $row["tp_sector"]] ,['tp_nsc_cp' => $row["tp_nsc_cp"]] ,['msg_url' => $row["msg_url"]]]);
+ 
 
  
  }
 
-
+return $return_array;
    
  }
 }
