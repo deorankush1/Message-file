@@ -1,0 +1,262 @@
+[
+    [
+        {
+            "ent_date": "2018-01-12 09:20:13"
+        },
+        {
+            "msg_id": "56541527"
+        },
+        {
+            "full_message": "Long-Term Multibagger Call- 12-01-2018 Investors with risk appetite looking for quick bucks can now buy \r\nSumeet Industries ( LONG TERM)@33.45-27.50 Sl -NA(Hold till the fundamentals are intact)- tgt1 43 tgt2 56 tgt3 60!! Multi-bagger stocks can be added in tranches"
+        },
+        {
+            "price": "Price when posted :  BSE: Rs. 33.55 NSE: Rs. 33.45"
+        },
+        {
+            "topic": "Sumeet Ind"
+        },
+        {
+            "tp_sector": "Textiles - Manmade"
+        },
+        {
+            "tp_nsc_cp": "32.85"
+        },
+        {
+            "msg_url": "\/forum-topics\/stocks\/sumeet-ind\/thread-message-54741527-56541527.html"
+        }
+    ],
+    [
+        {
+            "ent_date": "2018-01-20 09:38:58"
+        },
+        {
+            "msg_id": "57198423"
+        },
+        {
+            "full_message": "Nothing`s permanent on the bourses except for the change which is always constant. The stock market is the story of cycles and of the human behaviour that is responsible for overreactions in both directions. He who understands wins the race the race finally."
+        },
+        {
+            "price": "Price when posted :  NSE: Rs. 702.40"
+        },
+        {
+            "topic": "Mindtree"
+        },
+        {
+            "tp_sector": "Computers - Software"
+        },
+        {
+            "tp_nsc_cp": "702.40"
+        },
+        {
+            "msg_url": "\/forum-topics\/stocks\/mindtree\/thread-message-55254765-57198423.html"
+        }
+    ],
+    [
+        {
+            "ent_date": "2018-01-16 09:29:41"
+        },
+        {
+            "msg_id": "56822951"
+        },
+        {
+            "full_message": "Long-Term Multibagger Call- 16-01-2018 Investors with risk appetite looking for quick bucks can now buy \r\nFirstsource Solutions ( LONG TERM)@45.55-39 Sl -NA(Hold till the fundamentals are intact)- tgt1 61 tgt2 77 tgt3 86!! Multi-bagger stocks can be added in tranches"
+        },
+        {
+            "price": "Price when posted :  BSE: Rs. 46.45 NSE: Rs. 46.35"
+        },
+        {
+            "topic": "Firstsource Sol"
+        },
+        {
+            "tp_sector": "Computers - Software Medium & Small"
+        },
+        {
+            "tp_nsc_cp": "44.70"
+        },
+        {
+            "msg_url": "\/forum-topics\/stocks\/firstsource-sol\/thread-message-55022951-56822951.html"
+        }
+    ],
+    [
+        {
+            "ent_date": "2018-01-19 15:24:58"
+        },
+        {
+            "msg_id": "57155769"
+        },
+        {
+            "full_message": "Our portfolio pick, Syngen International is now trading at fresh 52-week highs."
+        },
+        {
+            "price": "Price when posted : BSE: Rs. 610.45 NSE: Rs. 614.75"
+        },
+        {
+            "topic": "Syngene Intl"
+        },
+        {
+            "tp_sector": "Miscellaneous"
+        },
+        {
+            "tp_nsc_cp": "615.80"
+        },
+        {
+            "msg_url": "\/forum-topics\/stocks\/syngene-intl\/thread-message-55355769-57155769.html"
+        }
+    ],
+    [
+        {
+            "ent_date": "2018-01-19 10:47:40"
+        },
+        {
+            "msg_id": "57121577"
+        },
+        {
+            "full_message": "Multibagger on the move .... cheers."
+        },
+        {
+            "price": "Price when posted : BSE: Rs. 63.25 NSE: Rs. 63.40"
+        },
+        {
+            "topic": "Alembic"
+        },
+        {
+            "tp_sector": "Pharmaceuticals"
+        },
+        {
+            "tp_nsc_cp": "63.45"
+        },
+        {
+            "msg_url": "\/forum-topics\/stocks\/alembic\/thread-message-55321577-57121577.html"
+        }
+    ],
+    [
+        {
+            "ent_date": "2018-01-19 09:04:57"
+        },
+        {
+            "msg_id": "57108053"
+        },
+        {
+            "full_message": "Followed you dear MK and wish you luck on the bourses."
+        },
+        {
+            "price": "Price when posted :  NSE: Rs. 44.65"
+        },
+        {
+            "topic": "Firstsource Sol"
+        },
+        {
+            "tp_sector": "Computers - Software Medium & Small"
+        },
+        {
+            "tp_nsc_cp": "44.70"
+        },
+        {
+            "msg_url": "\/forum-topics\/stocks\/firstsource-sol\/thread-message-55022951-57108053.html"
+        }
+    ],
+    [
+        {
+            "ent_date": "2018-01-19 08:08:32"
+        },
+        {
+            "msg_id": "57106031"
+        },
+        {
+            "full_message": "It`s abnormal market condition when main indices are rising and broader indices falling. It may be due to the fact that, ``A Lot of liquidity locked in the primary market is making mid and small caps volatile. I think mid caps may remain vulnerable to profit booking for a couple of sessions before euphoria in the primary which led to insane oversubscription in back to back IPOs cools off and liquidity starts rolling back into the secondary market``. Some more pain can`t be ruled out before blast off."
+        },
+        {
+            "price": "Price when posted :  NSE: Rs. 684.15"
+        },
+        {
+            "topic": "Mindtree"
+        },
+        {
+            "tp_sector": "Computers - Software"
+        },
+        {
+            "tp_nsc_cp": "702.40"
+        },
+        {
+            "msg_url": "\/forum-topics\/stocks\/mindtree\/thread-message-55254765-57106031.html"
+        }
+    ],
+    [
+        {
+            "ent_date": "2018-01-08 09:36:43"
+        },
+        {
+            "msg_id": "56164467"
+        },
+        {
+            "full_message": "Long-Term Multibagger Call- 08-01-2017 Investors with risk appetite looking for quick bucks can now buy Kesar Terminals and Infrastructure \r\n( LONG TERM)@190.25-178.15 Sl -NA- tgt1 249 tgt2 270!! Multi-bagger stocks can be added in tranches"
+        },
+        {
+            "price": ""
+        },
+        {
+            "topic": "Kesar Terminals"
+        },
+        {
+            "tp_sector": ""
+        },
+        {
+            "tp_nsc_cp": null
+        },
+        {
+            "msg_url": "\/forum-topics\/stocks\/kesar-terminals\/thread-message-54364467-56164467.html"
+        }
+    ],
+    [
+        {
+            "ent_date": "2018-01-18 14:41:38"
+        },
+        {
+            "msg_id": "57054765"
+        },
+        {
+            "full_message": "Hats off to Mindtree, it traded rock solid on the back of earnings optimism."
+        },
+        {
+            "price": "Price when posted : BSE: Rs. 686.00 NSE: Rs. 686.00"
+        },
+        {
+            "topic": "Mindtree"
+        },
+        {
+            "tp_sector": "Computers - Software"
+        },
+        {
+            "tp_nsc_cp": "702.40"
+        },
+        {
+            "msg_url": "\/forum-topics\/stocks\/mindtree\/thread-message-55254765-57054765.html"
+        }
+    ],
+    [
+        {
+            "ent_date": "2018-01-18 11:02:35"
+        },
+        {
+            "msg_id": "57026863"
+        },
+        {
+            "full_message": "LEEL blasts with big volume. Now trades above 300. The stock was suggested near 180."
+        },
+        {
+            "price": "Price when posted : BSE: Rs. 306.60 NSE: Rs. 307.35"
+        },
+        {
+            "topic": "Lloyd Electric"
+        },
+        {
+            "tp_sector": "Consumer Goods - White Goods"
+        },
+        {
+            "tp_nsc_cp": "289.70"
+        },
+        {
+            "msg_url": "\/forum-topics\/stocks\/lloyd-electric\/thread-message-55226863-57026863.html"
+        }
+    ]
+]
